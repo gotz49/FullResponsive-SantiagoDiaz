@@ -8,139 +8,14 @@
 body{
     background-color: black;
 }
-
-
-/*HEADER Y SECCIONES*/
-header{
-    position: sticky;
-    top: 0%;
-    z-index: 1;
-}
-.menu{
-    background-color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.secciones li{
-    display:inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.secciones li a{
-    text-decoration: none;
-    color: aliceblue;
-    font-family: 'Montaga', serif;
-}
-
-
-/*GRID INDEX*/
-.mainIndex{
-    display: grid;
-    grid-template-areas: "presentacion presentacion presentacion presentacion"
-                        "item01 item02 item03 item04";
-    justify-content: center;
-}
-
-.presentacion{
-    grid-area: presentacion;
-}
-.item01{
-    grid-area: item01;
-}
-.item02{
-    grid-area: item02;
-}
-.item03{
-    grid-area: item03;
-}
-.item04{
-    grid-area: item04;
-}
-
-/* media queries INDEX*/
-@media only screen and (max-width: 1024px){
-    .mainIndex{
-        display: grid;
-        grid-template-areas: "presentacion presentacion"
-                            "item01 item02 item03 item04";
-        justify-content: center;
-    }
-
-    .secciones{
-        font-size: 17px;
-    }
-    .presentacion p{
-        font-size: 15px;
-    }
-    .presentacion h1{
-        font-size: 28px;
-        margin-bottom: 15px;
-    }
-    .prodPopulares ul{
-        display: flex;
-        align-items: center;
-    }
-    .prodPopulares ul li{
-        display: inline-block;
-        font-size: 12px;
-    }
-    .prodPopulares ul li img{
-        height: 150px;
-        width: 150px;
-    }
-    .seccionPopulares{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-}
-
-@media only screen and (max-width: 600px){
-    .mainIndex{
-        display: grid;
-        grid-template-areas: "presentacion presentacion"
-                            "item01 item02 item03 item04";
-        justify-content: center;
-    }
-
-    .secciones{
-        font-size: 15px;
-    }
-    .presentacion p{
-        font-size: 15px;
-    }
-    .presentacion h1{
-        font-size: 28px;
-        margin-bottom: 15px;
-    }
-    .prodPopulares ul{
-        display: flex;
-        align-items: center;
-    }
-    .prodPopulares ul li{
-        display: inline-block;
-        font-size: 12px;
-    }
-    .prodPopulares ul li img{
-        height: 150px;
-        width: 150px;
-    }
-    .seccionPopulares{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
+main{
+    background-color: black;
 }
 
 /*PRESENTACION*/
 
 .presentacion{
-    grid-area: presentacion;
+    background-color: black;
     background-image: url(../img/home/fondo\ inicio.jpg);
     padding: 400px 100px;
     background-position: center center;
@@ -183,19 +58,20 @@ header{
     text-decoration: none;
     font-size: 11px;
     font-family: 'Montaga', serif;
-    background-color: aliceblue;
+    background-color: black;
     color: black;
 }
 
 
 /* GRID SECCION DE COMPRAS POPULARES */
 .prodPopulares{
-    display: grid;
+    background-color: black;
 }
 
 /*SECCION DE COMPRAS POPULARES*/
 
 .seccionPopulares p{
+    background-color: black;
     font-family: 'Montaga', serif;
     color: rgba(240, 248, 255, 0.664);
     text-align: center;
@@ -203,6 +79,7 @@ header{
 }
 
 .seccionPopulares h2{
+    background-color: black;
     font-family: 'Montaga', serif;
     color: rgba(240, 248, 255, 0.664);
     text-align: center;
@@ -221,15 +98,13 @@ header{
 
 /*INICIO DEL FOOTER*/
 
-.linea {
-    border-top: 1px solid rgba(240, 248, 255, 0.212);
-    height: 1px;
-    padding: 0;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    }
+footer{
+    background-color: black;
+}
 
 .footer{
+    margin-top: 200px;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-content: flex-end;
@@ -294,10 +169,16 @@ header{
 }
 
 /*seccion de la TIENDA */
+
 .tienda{
     font-family: 'Gentium Basic', serif;
     color: rgba(240, 248, 255, 0.842);
     text-transform: uppercase;
+}
+
+.tienda h1{
+    display: flex;
+    justify-content: center;
 }
 
 
