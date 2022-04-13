@@ -58,7 +58,7 @@ main{
     text-decoration: none;
     font-size: 11px;
     font-family: 'Montaga', serif;
-    background-color: black;
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -86,13 +86,17 @@ main{
     margin-bottom: 45px;
 }
 
-.prodPopulares ul li{
-    display: inline-block;
+.seccionPopulares div div h2{
     font-family: 'Gentium Basic', serif;
-    text-transform: uppercase;
-    color: rgba(240, 248, 255, 0.664);
-    margin:40px;
-    text-align: center;
+    font-size: 25px;
+}
+.seccionPopulares div{
+    font-family: 'Gentium Basic', serif;
+    font-size: 20px;
+}
+.seccionPopulares div div a{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -105,10 +109,6 @@ footer{
 .footer{
     margin-top: 200px;
     background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
-
 }
 
 
@@ -116,13 +116,13 @@ footer{
 
 .redesSociales h4{
     font-family: 'Gentium Basic', serif;
-    font-weight: 400;
+    font-size: 15px;
     color: rgba(240, 248, 255, 0.664);
 }
 
 .redesSociales nav ul li{
     display: inline-block;
-    margin: 5px;
+    margin: 15px;
 }
 
 
@@ -130,7 +130,7 @@ footer{
 
 .ayudaFooter h4{
     font-family: 'Gentium Basic', serif;
-    font-weight: 500;
+    font-size: 20px;
     text-transform: uppercase;
     color: rgba(240, 248, 255, 0.664);
     margin-bottom: 15px;
@@ -139,7 +139,7 @@ footer{
 
 .ayudaFooter nav ul p{
     font-family: 'Gentium Basic', serif;
-    font-weight: 400;
+    font-size: 15px;
     color: rgba(240, 248, 255, 0.664);
     margin: 4px;
 }
@@ -158,7 +158,7 @@ footer{
 
 .derechos h5{
     font-family: 'Gentium Basic', serif;
-    font-weight: 400;
+    font-size: 15px;
     color: rgba(240, 248, 255, 0.664);
 }
 
@@ -179,8 +179,18 @@ footer{
 .tienda h1{
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
 }
 
+.tienda div div{
+    font-family: 'Gentium Basic', serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 /*seccion de INICIAR SESION*/
 .iniciarSesion{
@@ -195,7 +205,16 @@ footer{
     font-family: 'Montaga', serif;
     color: rgba(240, 248, 255, 0.842);
 }
-
+.lookbook section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lookbook section h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
 /*seccion de RECUPERAR CONTRASEÑA*/
 

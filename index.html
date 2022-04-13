@@ -21,7 +21,7 @@
 </head>
 <body>
         <!--seccion superior de la pagina, encabezado-->
-        <header >
+        <header>
             <!--menu de secciones-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-black">
                 <div class="container-fluid">
@@ -73,97 +73,108 @@
                 <h2>BESTSELLERS</h2>
 
                 <!--productos-->
-                <div>
-                    <nav class="prodPopulares">
-                        <ul>
-                            <li class="item01">
-                                <h3>serpiente</h3>
-                                <img src="img/productos/serpent-343326_400x.jpg" alt="anillo de serpiente" width="350px">
-                                <p>$38</p>
-                            </li>
-                            <li class="item02">
-                                <h3>vikingos</h3>
-                                <img src="img/productos/vikings-silver-516596_400x.jpg" alt="anillo de vikingo" width="350px">
-                                <p>$38</p>
-                            </li>
-                            <li class="item03">
-                                <h3>dodo</h3>
-                                <img src="img/productos/dodo-silver-543029_400x.jpg" alt="anillo dodo" width="350px">
-                                <p>$38</p>
-                            </li>
-                            <li class="item04">
-                                <h3>brújula de la vida</h3>
-                                <img src="img/productos/compass-of-life-necklace-536613_400x.jpg" alt="collar brujula" width="350px">
-                                <p>$38</p>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
+                <div class="container-fluid">
+                    <section class="row d-flex justify-content-around mb-5">
+                        <div class="col-3 mb-5" style="width: 250px; height: 250px;">
+                            <img src="../img/productos/serpent-343326_400x.jpg" class="card-img-top" alt="anillo de serpiente">
+                            <div class="card-body">
+                              <h2 class="card-title">serpiente</h2>
+                              <p class="card-text">$38</p>
+                              <a href="#" class="btn btn-dark">comprar</a>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5" style="width: 250px; height: 250px;">
+                            <img src="../img/productos/vikings-silver-516596_400x.jpg" class="card-img-top" alt="anillo de vikingo">
+                            <div class="card-body">
+                              <h2 class="card-title">vikingo</h2>
+                              <p class="card-text">$38</p>
+                              <a href="#" class="btn btn-dark">comprar</a>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5" style="width: 250px; height: 250px;">
+                            <img src="../img/productos/dodo-silver-543029_400x.jpg" class="card-img-top" alt="anillo de dodo">
+                            <div class="card-body">
+                              <h2 class="card-title">dodo</h2>
+                              <p class="card-text">$38</p>
+                              <a href="#" class="btn btn-dark">comprar</a>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5" style="width: 250px; height: 250px;">
+                            <img src="../img/productos/compass-of-life-necklace-536613_400x.jpg" class="card-img-top" alt="collar brújula de la vida">
+                            <div class="card-body">
+                              <h2 class="card-title">brújula de la vida</h2>
+                              <p class="card-text">$38</p>
+                              <a href="#" class="btn btn-dark">comprar</a>
+                            </div>
+                        </div>
+                    </section>
         </main>
-        <footer class="footer">
 
-            
-            <!--div para redes sociales-->
-            <div class="redesSociales">
-                <h4>
-                    Entérate más de Outlaws Amsterdam en nuestras redes sociales
-                </h4>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/outlaws.amsterdam" target="blank">
-                                <img src="img/home/facebook logo.jpg" alt="logo de facebook" width="35px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/outlaws.amsterdam/"target="blank">
-                                <img src="img/home/instagram logo.jpg" alt="logo de instagram" width="40px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.tiktok.com/@outlaws.amsterdam"target="blank">
-                                <img src="img/home/tiktok logo.jpg" alt="logo de tiktok" width="40px">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <!--div para seccion de ayuda y politicas-->
-            <div class="ayudaFooter">
-                <h4>¿Necesitas ayuda?</h4>
-                <nav>
-                    <ul>
-                        <p>Información de la compañía</p>
-                        <p>Guía de tallas de anillo</p>
-                        <p>Contacto</p>
-                        <p>Preguntas más frecuentes</p>
-                    </ul>
-                </nav>
-                <img src="img/tarjetas.jpg" alt="tarjetas aceptadas">
-            </div>
-
-            <!--div para suscripcion al newsletter-->
-            <div class="newsletter">
-                <p>Suscribete para recibir nuestras novedades</p>
-                <form action="">
-                    <div>
-                        <input type="email" name="suscripcionEmail" placeholder="Email">
+        <div class="container-fluid">
+            <section class="row ">
+                <footer class=" col-12 footer d-flex justify-content-between">   
+                    <!--div para redes sociales-->
+                    <div class="redesSociales">
+                        <h4>
+                            Entérate más de Outlaws Amsterdam en nuestras redes sociales
+                        </h4>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/outlaws.amsterdam" target="blank">
+                                        <img src="../img/home/facebook logo.jpg" alt="logo de facebook" width="35px">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/outlaws.amsterdam/"target="blank">
+                                        <img src="../img/home/instagram logo.jpg" alt="logo de instagram" width="40px">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.tiktok.com/@outlaws.amsterdam"target="blank">
+                                        <img src="../img/home/tiktok logo.jpg" alt="logo de tiktok" width="40px">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div>
-                        <input type="submit" value="Suscribirse">
+                
+                    <!--div para seccion de ayuda y politicas-->
+                    <div class="ayudaFooter">
+                        <h4>¿Necesitas ayuda?</h4>
+                        <nav>
+                            <ul>
+                                <p>Información de la compañía</p>
+                                <p>Guía de tallas de anillo</p>
+                                <p>Contacto</p>
+                                <p>Preguntas más frecuentes</p>
+                            </ul>
+                        </nav>
+                        <img src="../img/tarjetas.jpg" alt="tarjetas aceptadas">
                     </div>
-                </form>
-            </div>
-            <!--div para seccion de derechos y boton de volver al inicio-->
-            <div class="derechos">
-                <h5>© 2021 | Todos los derechos reservados</h5>
-                <a href="#home">
-                    © OUTLAWS AMSTERDAM
-                </a>
-            </div>
-        </footer>
+                
+                    <!--div para suscripcion al newsletter-->
+                    <div class="newsletter">
+                        <p>Suscribete para recibir nuestras novedades</p>
+                        <form action="">
+                            <div>
+                                <input type="email" name="suscripcionEmail" placeholder="Email">
+                            </div>
+                            <div>
+                                <input type="submit" value="Suscribirse">
+                            </div>
+                        </form>
+                    </div>
+                    <!--div para seccion de derechos y boton de volver al inicio-->
+                    <div class="derechos">
+                        <h5>© 2021 | Todos los derechos reservados</h5>
+                        <a href="#home">
+                            © OUTLAWS AMSTERDAM
+                        </a>
+                    </div>
+                </footer>
+            </section>
+        </div>
 
         <!--link de js bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
